@@ -12,6 +12,8 @@ public class TestQuickSort {
         int[] arr2 = {1,5,16,18,23,28};
         quickSort1(arr,0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
+        System.out.println("this is a fatal error!!");
+        
     }
 
     /**
