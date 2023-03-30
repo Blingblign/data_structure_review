@@ -25,7 +25,7 @@ public class TestQuickSort {
         i = j = left;
         for (; j < right; j++) {
             if (arr[j] < arr[right]) {
-                int temp = arr[j];  
+                int temp = arr[j];
                 arr[j] = arr[i];
                 arr[i] = temp;
                 i++;
@@ -35,21 +35,20 @@ public class TestQuickSort {
     }
 
     /**
-     * 双边排序
-     * @param arr
-     * @param left
-     * @param right
+     * 双边快速排序
      */
     public static void quickSort2(int[] arr,int left, int right) {
+        System.out.println(arr);
         //i,j两个指针分别记录第一次大于和小于基准点的索引位置
         int i = left;
         int j = right;
+
         while (true) {
             if (arr[i] < arr[right])
                 i++;
             if (arr[j] > arr[right])
                 j--;
-        }    
+        }
     }
 
 }
