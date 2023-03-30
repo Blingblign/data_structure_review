@@ -34,4 +34,14 @@ public class TestQuickSort {
 
     }
 
+    /**
+     * 双边排序
+     * @param arr
+     * @param left
+     * @param right
+     */
+    public static void quickSort2(int[] arr,int left, int right) {
+
+    }
+
 }
